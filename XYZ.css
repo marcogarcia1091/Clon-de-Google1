@@ -1,0 +1,125 @@
+#container0 {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    align-items: center;
+    justify-content: flex-end;
+    border: red solid 3px;
+    text-align: center;
+}
+
+#container0 span {
+    margin-right: 15px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    /*Solo funciona para renglones o con flex-direction: row.*/
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    border: purple solid 2px;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    border: green solid 1px;
+    /* margin-top: 50px; */
+}
+
+/* #container2 input {
+    border: auto;
+    border-radius: 10px;
+    border: green solid 2px;
+} */
+
+#container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: blue solid 2px;
+}
+
+#container3 input {
+    /* margin-right: 50px; */
+    width: 267px;
+
+}
+
+
+#container4 {
+    /* display:flex; */
+    /* flex-direction: column ; */
+    /* flex-flow: column; */
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+    /* font-size: 20px;*/
+    border: red solid 2px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    /*Alinea verticalmente cuando flex-direction:column*/
+    /* position: sticky;
+    top: 100% */
+    /* height: 51vh; */
+}
+
+#container4 span{
+    font-size: 20px;
+    height: 300px;
+}
+
+#container5 {
+    position: sticky;
+    top: 100%;
+    border: blue solid 2px;
+    height: 50px;
+    /* margin-left: 20px; */        /*No es necesaria*/
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    /* z-index: 2; */
+}
+
+#container5 span{
+    margin: 20px;
+    font-family: Arial sans-serif;
+    color: #5c6064;
+
+}
+
+/* section span {
+    margin-right: 30px;
+} */
+
+#container6 {
+    position: sticky;
+    top: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    z-index: 1;
+}
+
+#container6 span {
+    margin-right: 15px;
+}
+
+body {
+    border: green solid 4px;
+    min-height: 98vh;              /*Trucazo, para que el body ocupe todo el alto de la ventana y no solo el alto dependiendo de los elementos que tenga*/
+}
+
+footer {
+    position: sticky;
+    top: 100%;
+}
+
+/* .txt:hover {
+    text-decoration: underline;
+} */
+
+a:link { text-decoration:none; }    /*Elimina el subrayado que se pone por defecto al utilizar la etiqueta <a>*/
